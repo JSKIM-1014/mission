@@ -9,7 +9,7 @@ const productsRouter = require('./routes/products');
 const articlesRouter = require('./routes/articles');
 const commentsRouter = require('./routes/comments');
 const uploadsRouter = require('./routes/uploads');
-const { errorHandler, notFoundHandler } = require('./middleware/errorHandler');
+const { errorHandler, notFoundHandler } = require('.src/middleware/errorHandler.js');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
